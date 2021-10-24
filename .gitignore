@@ -2,3 +2,7 @@ venv
 
 .idea/
 __pycache__/
+
+tabelasOlipicas
+analisando.py
+tabelas.py
