@@ -172,4 +172,11 @@ def number_of_coaches_per_sport():
     return df['Discipline'].value_counts()
 
 
-
+def how_wany_times_per_sport_each_country_has():
+    """
+    Quanto vezes por esporte cada país tem.
+    :return:<class 'pandas.core.series.Series'>
+    """
+    df = pd.read_excel('data/Athletes.xlsx')
+    df.drop(['Name'], inplace=True, axis=1)
+    return df['NOC'].value_counts()
