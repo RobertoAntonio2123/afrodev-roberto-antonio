@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 dt = pd.read_excel('data/popularsports.xlsx')
@@ -13,4 +12,3 @@ plt.plot(x1, y,  label='(a) Athletics\n''(b) Basketball\n''(c) Football\n''(d) J
          '(e) Rowing\n''(f)  Rugby Sevens\n''(g) Sailing\n''(h) Shooting\n''(i)  Swimming\n')
 plt.legend()
 plt.show()
-
