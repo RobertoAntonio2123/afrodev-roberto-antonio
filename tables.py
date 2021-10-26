@@ -45,7 +45,7 @@ def total_medals_by_country():
     """
     dt = pd.read_excel('data/Medals.xlsx')
     dt['total'] = dt['Gold'] + dt['Silver'] + dt['Bronze']
-    return dt[['Team/NOC', 'total']]
+    return dt.set_index('Team/NOC','total' )
 
 
 def ranking_by_total_medals():
@@ -68,7 +68,7 @@ def The_countries_that_will_have_the_most_medals():
     """
     df = pd.read_excel('data/Medals.xlsx')
     df.drop('Rank', inplace=True, axis=1)
-    return df.loc[1:3, ['Team/NOC', 'Gold', 'Silver', 'Bronze']]
+    return df.sort_values('Gold', ascending=False, ignore_index=True)
 
 
 
@@ -80,7 +80,7 @@ def country_with_fewer_medals():
     df = pd.read_excel('data/Medals.xlsx')
     df.set_index('Team/NOC', inplace=True)
     df.drop('Rank', inplace=True, axis=1)
-    return df.sort_values('Team/NOC')
+    return df.sort_values('Gold')
 
 
 def list_with_participating_sports():
@@ -116,6 +116,7 @@ def Type_of_sport_for_male_and_female():
     Tipo de esporte para masculino e feminino
     :return: <class 'pandas.core.series.Series'>
     """
+
     df = pd.read_excel('data/EntriesGender.xlsx')
     return df.sort_values('Male', ascending=False)
 

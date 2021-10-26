@@ -1,5 +1,6 @@
 import sys
 import untitled
+import graphic
 from tables import *
 import pandas as pd
 import numpy as np
@@ -26,7 +27,18 @@ class final_result(QMainWindow,untitled.Ui_MainWindow):
         self.quantidadeTime.clicked.connect(self.x12)
         self.totalAtletaa.clicked.connect(self.x13)
 
-        # botão
+        # Botão dos graficos
+
+        self.grafico1.clicked.connect(self.x14)
+        self.grafico2.clicked.connect(self.x15)
+
+    def x14(self):
+        graphic.grafico_com_mais_medalhas()
+
+    def x15(self):
+        graphic.grafico_com_total_de_participacao_dos_dois_sexo()
+
+# botão
     def x1(self):
         self.labelRetorno.setText(
             str(total_participating_participants())

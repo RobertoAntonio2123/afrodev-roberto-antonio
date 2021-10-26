@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>765</width>
-    <height>527</height>
+    <width>748</width>
+    <height>499</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -41,10 +41,10 @@
    <widget class="QLabel" name="labelRetorno">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>220</y>
-      <width>641</width>
-      <height>161</height>
+      <x>200</x>
+      <y>110</y>
+      <width>481</width>
+      <height>311</height>
      </rect>
     </property>
     <property name="font">
@@ -53,20 +53,23 @@
      </font>
     </property>
     <property name="text">
-     <string>dsd</string>
+     <string/>
     </property>
     <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
     </property>
    </widget>
    <widget class="QPushButton" name="totalAtleta">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>60</y>
+      <x>20</x>
+      <y>220</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Total de atleta do mundo</string>
@@ -75,11 +78,14 @@
    <widget class="QPushButton" name="totalPaticipates">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>60</y>
+      <x>20</x>
+      <y>130</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Total Paticipantes Masculino</string>
@@ -88,11 +94,14 @@
    <widget class="QPushButton" name="totalFeminino">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>60</y>
+      <x>20</x>
+      <y>100</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Total Paticipantes Feminino</string>
@@ -101,11 +110,14 @@
    <widget class="QPushButton" name="totalMedalha">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>60</y>
+      <x>20</x>
+      <y>400</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Total Medalhas Por Esporte</string>
@@ -114,11 +126,14 @@
    <widget class="QPushButton" name="ranking">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>90</y>
+      <x>20</x>
+      <y>160</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Ranking Por Medalhas</string>
@@ -127,11 +142,14 @@
    <widget class="QPushButton" name="totalMedalhapa">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>90</y>
+      <x>20</x>
+      <y>250</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Total De Medalhas Por Pais</string>
@@ -140,11 +158,14 @@
    <widget class="QPushButton" name="paisMais">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>90</y>
+      <x>20</x>
+      <y>70</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Paises Com Mais Medalhas</string>
@@ -153,11 +174,14 @@
    <widget class="QPushButton" name="paisMenos">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>90</y>
+      <x>20</x>
+      <y>340</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Paises Com Menos Medalhas</string>
@@ -166,11 +190,14 @@
    <widget class="QPushButton" name="quantidadeTime">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>120</y>
+      <x>20</x>
+      <y>370</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Quantidade de Times</string>
@@ -179,11 +206,14 @@
    <widget class="QPushButton" name="totalAtletaa">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>120</y>
+      <x>20</x>
+      <y>190</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Tipo Espote Para M e F</string>
@@ -192,11 +222,14 @@
    <widget class="QPushButton" name="quantiEsport">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>120</y>
+      <x>20</x>
+      <y>280</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Quantidade Por Esporte</string>
@@ -205,11 +238,14 @@
    <widget class="QPushButton" name="totalTreina">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>120</y>
+      <x>20</x>
+      <y>430</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Total de treinadores </string>
@@ -218,16 +254,87 @@
    <widget class="QPushButton" name="timePais">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>150</y>
+      <x>20</x>
+      <y>310</y>
       <width>151</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
     </property>
     <property name="text">
      <string>Times Por Pais</string>
     </property>
    </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>771</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="grafico1">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>460</y>
+       <width>201</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>Representação Grafica Tipo Por Esporte</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="grafico2">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>460</y>
+       <width>171</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>Representação Grafica Medalhas</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>label</zorder>
+   <zorder>labelRetorno</zorder>
+   <zorder>totalAtleta</zorder>
+   <zorder>totalPaticipates</zorder>
+   <zorder>totalFeminino</zorder>
+   <zorder>totalMedalha</zorder>
+   <zorder>ranking</zorder>
+   <zorder>totalMedalhapa</zorder>
+   <zorder>paisMais</zorder>
+   <zorder>paisMenos</zorder>
+   <zorder>quantidadeTime</zorder>
+   <zorder>totalAtletaa</zorder>
+   <zorder>quantiEsport</zorder>
+   <zorder>totalTreina</zorder>
+   <zorder>timePais</zorder>
   </widget>
  </widget>
  <resources/>
